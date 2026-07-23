@@ -1,0 +1,29 @@
+
+  {
+    "@context": "https://schema.org",
+    "@type": ["MedicalBusiness", "LocalBusiness"],
+    "name": "Dra. Carolina Bemmfica",
+    "description": "Terapias integrativas para equilíbrio físico, emocional e energético",
+    "url": "https://dracarolinabemmfica.com.br",
+    "telephone": "+55-11-XXXX-XXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "São Paulo",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "areaServed": "Pompeia, São Paulo",
+    "priceRange": "$$",
+    "medicalSpecialty": "IntegrativeMedicine",
+    "knowsAbout": ["Microfisioterapia", "Barras de Access Consciousness", "PSYCH-K", "Radiestesia Terapêutica"],
+    "founder": {
+      "@type": "Person",
+      "name": "Carolina Bemmfica",
+      "jobTitle": "Fisioterapeuta Integrativa",
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Universidade de São Paulo"
+      }
+    }
+  }
+  

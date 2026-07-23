@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dra. Carolina Bemmfica — Terapias Integrativas em Pompeia, São Paulo. Microfisioterapia, Barras de Access, PSYCH-K e Radiestesia para equilíbrio físico, emocional e energético.">
+  <meta name="keywords" content="terapias integrativas, microfisioterapia, barras de access, PSYCH-K, ra diestesia, São Paulo, Pompeia, bem-estar, equilíbrio emocional">
+  <meta property="og:title" content="Dra. Carolina Bemmfica — Terapias Integrativas">
+  <meta property="og:description" content="Tratamos a causa do desequilíbrio, não apenas os sintomas. Agende sua avaliação em São Paulo.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="og-image.jpg">
+  <meta name="robots" content="index, follow">
+  <title>Dra. Carolina Bemmfica — Terapias Integrativas em São Paulo</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org LocalBusiness -->
+  <script>
+    fetch('data/schema.json')
+      .then(r => r.json())
+      .then(data => {
+        const sc = document.createElement('script');
+        sc.type = 'application/ld+json';
+        sc.textContent = JSON.stringify(data);
+        document.head.appendChild(sc);
+      })
+      .catch(() => {});
+  </script>
+</head>
+<body>
+
+  <!-- ==============================================================
+  HEADER
+  ============================================================== -->
+  <header class="header" role="banner">
+    <div class="container">
+      <a href="#" class="header-logo" aria-label="Dra. Carolina Bemmfica — Página inicial">
+        <span class="logo-mark" aria-hidden="true">CB</span>
+        <span>Dra. Carolina Bemmfica</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Navegação principal">
+        <a href="#terapias">Terapias</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="#contato" class="btn btn-primary">Agendar Avaliação</a>
+      </nav>
+
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile overlay -->
+  <div class="mobile-overlay" role="dialog" aria-modal="true" aria-label="Menu de navegação">
+    <a href="#terapias">Terapias</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#duvidas">Dúvidas</a>
+    <a href="#contato" class="btn btn-primary">Agendar Avaliação</a>
+  </div>
+
+  <!-- ==============================================================
+  MOBILE CTA BAR (fixed bottom)
+  ============================================================== -->
+  <div class="mobile-cta-bar">
+    <a href="#contato" class="btn btn-primary">Agendar Avaliação</a>
+  </div>
+
+  <!-- ==============================================================
+  MAIN
+  ============================================================== -->
+  <main>
+
+    <!-- ============================================================
+    HERO
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="grid-2">
+          <div class="hero-content">
+            <span class="section-label">Terapias Integrativas</span>
+            <h1>Tratamos a causa do desequilíbrio,<br>não apenas os sintomas.</h1>
+            <p class="hero-sub">
+              10 anos de experiência unindo fisioterapia e terapias integrativas para
+              equilíbrio físico, emocional e energético.
+            </p>
+            <a href="#contato" class="btn btn-primary">Agendar Avaliação</a>
+          </div>
+
+          <div class="hero-image-wrap">
+            <div class="hero-image-bg" aria-hidden="true"></div>
+            <div class="hero-orb" aria-hidden="true"></div>
+            <div class="hero-orb" aria-hidden="true"></div>
+            <div class="energy-lines" aria-hidden="true">
+              <div class="energy-line"></div>
+              <div class="energy-line"></div>
+              <div class="energy-line"></div>
+              <div class="energy-line"></div>
+            </div>
+            <div class="hero-image-frame">
+              <!-- Placeholder: substitua pela foto real da Dra. Carolina -->
+              <img
+                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80&auto=format&fit=crop"
+                alt="Dra. Carolina Bemmfica — Fisioterapeuta Integrativa"
+                loading="eager"
+                width="420"
+                height="525"
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    SERVICES STRIP
+    ============================================================ -->
+    <section class="services" id="terapias">
+      <div class="container">
+        <div class="testimonials-header">
+          <span class="section-label">Nossas Terapias</span>
+          <h2>Abordagens Integrativas</h2>
+        </div>
+        <div class="grid-4">
+          <!-- Microfisioterapia -->
+          <div class="service-card reveal">
+            <div class="icon-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3>Microfisioterapia</h3>
+            <p>Técnica manual que identifica e trata a origem de traumas físicos e emocionais armazenados no corpo.</p>
+          </div>
+
+          <!-- Barras de Access -->
+          <div class="service-card reveal reveal-delay-1">
+            <div class="icon-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="12" cy="12" r="1"/>
+                <path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>
+              </svg>
+            </div>
+            <h3>Barras de Access<sup>&reg;</sup></h3>
+            <p>Toque suave em 32 pontos na cabeça que libera cargas eletromagnéticas e promove relaxamento profundo.</p>
+          </div>
+
+          <!-- PSYCH-K -->
+          <div class="service-card reveal reveal-delay-2">
+            <div class="icon-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"/>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+            </div>
+            <h3>PSYCH-K<sup>&reg;</sup></h3>
+            <p>Processo que transforma crenças limitantes no subconsciente por meio de equilíbrio muscular.</p>
+          </div>
+
+          <!-- Radiestesia -->
+          <div class="service-card reveal reveal-delay-3">
+            <div class="icon-circle" aria-hidden="true">
+              <svg viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 3l7.07 16.97 2.51-7.39 7.39-2.51L3 3z"/>
+                <path d="M13 13l6 6"/>
+              </svg>
+            </div>
+            <h3>Radiestesia Terapêutica</h3>
+            <p>Diagnóstico energético com pêndulo para identificar bloqueios e restaurar o fluxo vital.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    WHY INTEGRATIVE THERAPIES (Dark section)
+    ============================================================ -->
+    <section class="why-integrativas" id="beneficios">
+      <div class="container">
+        <div class="grid-2">
+          <div class="why-content">
+            <span class="section-label">Por que terapias integrativas?</span>
+            <h2 class="text-light">Resultados reais, não promessas vazias</h2>
+
+            <div class="benefit-list">
+              <div class="benefit-item reveal">
+                <span class="benefit-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <div>
+                  <h4>Redução de dores crônicas</h4>
+                  <p>Tratamos a origem dos desconfortos físicos que a medicina convencional muitas vezes apenas mascara.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item reveal reveal-delay-1">
+                <span class="benefit-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <div>
+                  <h4>Equilíbrio emocional profundo</h4>
+                  <p>Ansiedade, estresse e traumas são trabalhados em sua raiz, promovendo paz e clareza mental.</p>
+                </div>
+              </div>
+
+              <div class="benefit-item reveal reveal-delay-2">
+                <span class="benefit-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                <div>
+                  <h4>Autocura estimulada</h4>
+                  <p>Seu corpo possui inteligência inata para se curar — nossas terapias ativam esse potencial natural.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-image-wrap">
+            <div class="why-image-frame">
+              <!-- Placeholder: cena de atendimento / mãos -->
+              <img
+                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&q=80&auto=format&fit=crop"
+                alt="Mãos em atendimento de terapia integrativa"
+                loading="lazy"
+                width="400"
+                height="400"
+              >
+            </div>
+            <div class="glass-card" role="complementary">
+              <h4>+10 anos de experiência</h4>
+              <p>Formada em Fisioterapia (2008) com especializações em Microfisioterapia, Barras de Access, PSYCH-K e Radiestesia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    ABOUT
+    ============================================================ -->
+    <section class="about" id="sobre">
+      <div class="container">
+        <div class="grid-2">
+          <div class="about-image-wrap">
+            <div class="about-image-bg" aria-hidden="true"></div>
+            <div class="about-image-frame">
+              <!-- Placeholder: foto da Dra. Carolina (segunda foto, mais clínica) -->
+              <img
+                src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=80&auto=format&fit=crop"
+                alt="Dra. Carolina Bemmfica — Atendimento humanizado"
+                loading="lazy"
+                width="380"
+                height="475"
+              >
+            </div>
+          </div>
+
+          <div class="about-text">
+            <span class="section-label">Sobre</span>
+            <h2>Ciência clínica e terapias energéticas em um só cuidado</h2>
+            <p>
+              Formada em Fisioterapia em 2008, a <strong>Dra. Carolina Bemmfica</strong> ampliou sua prática
+              para as terapias integrativas ao perceber que muitos pacientes precisavam de algo além do tratamento
+              convencional — precisavam tratar a <strong>origem</strong> do desequilíbrio.
+            </p>
+            <p>
+              Há mais de 10 anos, ela une o rigor clínico da fisioterapia com abordagens energéticas e emocionais
+              como Microfisioterapia, Barras de Access Consciousness<sup>&reg;</sup>, PSYCH-K<sup>&reg;</sup> e
+              Radiestesia Terapêutica. Cada atendimento é personalizado, acolhedor e focado em despertar o
+              potencial de autocura de cada paciente.
+            </p>
+
+            <div class="about-creds">
+              <span>Fisioterapeuta CREFITO (2008)</span>
+              <span>Microfisioterapia</span>
+              <span>Barras de Access</span>
+              <span>PSYCH-K</span>
+              <span>Anatomia Emocional</span>
+            </div>
+
+            <a href="#contato" class="btn btn-primary" style="margin-top:var(--space-lg)">Agendar Avaliação</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    CERTIFICATIONS STRIP
+    ============================================================ -->
+    <section class="certs" aria-label="Certificações e especializações">
+      <div class="container">
+        <div class="certs-track">
+          <span class="cert-item">Fisioterapeuta CREFITO (2008)</span>
+          <span class="cert-item">Microfisioterapia</span>
+          <span class="cert-item">Barras de Access Consciousness<sup>&reg;</sup></span>
+          <span class="cert-item">PSYCH-K<sup>&reg;</sup></span>
+          <span class="cert-item">Anatomia Emocional</span>
+          <span class="cert-item">Bioalinhamento</span>
+          <span class="cert-item">Fotobiomodulação</span>
+          <span class="cert-item">Aromaterapia</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    TESTIMONIALS
+    ============================================================ -->
+    <section class="testimonials" id="depoimentos">
+      <div class="container">
+        <div class="testimonials-header">
+          <span class="section-label">Depoimentos</span>
+          <h2>Quem já vivenciou, recomenda</h2>
+        </div>
+
+        <div class="grid-3" role="list">
+          <div class="testimonial-card reveal" role="listitem">
+            <div class="quote-icon" aria-hidden="true">&ldquo;</div>
+            <blockquote>
+              "Havia anos que convivia com dores nas costas. Depois das sessões de Microfisioterapia com a Dra. Carolina,
+              não só as dores sumiram como meu emocional ficou muito mais leve. Transformador."
+            </blockquote>
+            <footer>
+              <strong>Ana Lúcia</strong>
+              <span>Paciente há 8 meses</span>
+            </footer>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-1" role="listitem">
+            <div class="quote-icon" aria-hidden="true">&ldquo;</div>
+            <blockquote>
+              "Eu era muito cética em relação a terapias alternativas, mas o PSYCH-K mudou minha forma de pensar.
+              Consegui superar bloqueios que me travavam há anos. A abordagem da Dra. Carolina é acolhedora e profissional."
+            </blockquote>
+            <footer>
+              <strong>Marina F.</strong>
+              <span>Paciente há 3 meses</span>
+            </footer>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2" role="listitem">
+            <div class="quote-icon" aria-hidden="true">&ldquo;</div>
+            <blockquote>
+              "As Barras de Access me proporcionaram um relaxamento que eu não conseguia nem dormindo.
+              Chegava esgotada e saía renovada. A Dra. Carolina tem um dom para cuidar das pessoas."
+            </blockquote>
+            <footer>
+              <strong>Carla Mendes</strong>
+              <span>Paciente há 1 ano</span>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    FAQ
+    ============================================================ -->
+    <section class="faq" id="duvidas">
+      <div class="container">
+        <div class="faq-header">
+          <span class="section-label">Dúvidas Frequentes</span>
+          <h2>Tire suas principais dúvidas</h2>
+        </div>
+
+        <div class="faq-list" role="list">
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+              Nunca ouvi falar dessa terapia, como funciona?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-1" role="region">
+              <div class="faq-answer-inner">
+                Cada terapia tem seu mecanismo específico, mas todas partem do princípio de que o corpo armazena memórias
+                de traumas e estresses. Na avaliação inicial, a Dra. Carolina identifica qual abordagem é mais adequada
+                para o seu caso, explicando passo a passo o processo.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+              Funciona mesmo?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-2" role="region">
+              <div class="faq-answer-inner">
+                Sim, e os resultados podem ser percebidos por pacientes com dores crônicas, ansiedade, estresse,
+                bloqueios emocionais e muito mais. Os depoimentos acima são exemplos reais de transformações.
+                Cada organismo responde no seu tempo, mas a grande maioria relata melhoras significativas já nas
+                primeiras sessões.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+              Quanto tempo leva para sentir resultado?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-3" role="region">
+              <div class="faq-answer-inner">
+                Muitos pacientes relatam mudanças já na primeira sessão — seja alívio de dores, sensação de leveza
+                ou clareza mental. Para resultados mais profundos e duradouros, geralmente são recomendadas de 3 a
+                5 sessões, dependendo da complexidade de cada caso.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+              É baseado em evidência científica?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-4" role="region">
+              <div class="faq-answer-inner">
+                A Microfisioterapia, por exemplo, foi desenvolvida por médicos franceses e possui estudos publicados
+                sobre sua eficácia. A formação da Dra. Carolina em Fisioterapia (2008) garante uma base clínica sólida
+                que dialoga com as práticas integrativas, unindo evidência científica e saberes complementares.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+              Quanto custa a avaliação?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-answer-5" role="region">
+              <div class="faq-answer-inner">
+                O valor da avaliação inicial é acessível e inclui anamnese completa, identificação da terapia mais
+                indicada e uma primei ra intervenção. Entre em contato pelo WhatsApp ou Instagram para receber
+                todas as informações de valores e pacotes.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+    FINAL CTA
+    ============================================================ -->
+    <section class="final-cta" id="contato">
+      <div class="cta-wrapper">
+        <div class="cta-content">
+          <div class="cta-content-inner">
+            <span class="section-label">Agende sua sessão</span>
+            <h2>Agende sua avaliação e entenda a origem do seu desequilíbrio</h2>
+            <p>
+              Dê o primeiro passo para uma vida com mais saúde, equilíbrio e bem-estar.
+              Atendimento presencial na região da Pompeia, São Paulo.
+            </p>
+            <div class="cta-actions">
+              <a href="#" class="btn btn-primary">Agendar Avaliação</a>
+              <div class="cta-social">
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Dra. Carolina Bemmfica">
+                  <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook da Dra. Carolina Bemmfica">
+                  <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-image" aria-hidden="true">
+          <img
+            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&auto=format&fit=crop"
+            alt=""
+            loading="lazy"
+          >
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==============================================================
+  FOOTER
+  ============================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <span>&copy; 2026 Dra. Carolina Bemmfica — Todos os direitos reservados.</span>
+      <span class="footer-dev">
+        Desenvolvido por <a href="#">Freebuff</a>
+      </span>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/script.js" defer></script>
+
+</body>
+</html>
